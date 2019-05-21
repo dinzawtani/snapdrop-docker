@@ -1,2 +1,2 @@
-# snapdrop-docker
-docker version of RobinLinus/snapdrop/server (Version 2)
+# undone
+docker version of RobinLinus/snapdrop/client (Version 2)
