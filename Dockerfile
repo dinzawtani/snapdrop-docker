@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM nginx:alpine
 
 RUN apk add --no-cache git && \
     git clone https://github.com/RobinLinus/snapdrop.git && \
