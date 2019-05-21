@@ -3,7 +3,7 @@ FROM node:alpine
 RUN apk add --no-cache git && \
     git clone https://github.com/RobinLinus/snapdrop.git && \
     cd snapdrop && \
-    rm client && \
+    rm -f client && \
     cd server && \
     npm install
 
